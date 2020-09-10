@@ -1,0 +1,51 @@
+table{
+    margin: auto;
+    margin-top: 3vh;
+    width: 70%;
+    background-color: rgb(204, 200, 200);
+    border: 3px solid rgb(86, 86, 255);
+}
+table,th,td{
+    border-collapse: collapse;
+}
+td{
+    
+    /* padding:5px  10px;
+    margin: 5px 10px; */
+    font-size: 20px;
+    /* margin-left: 50px; */
+    margin: auto;
+    padding: 9px 10px;
+  
+}
+tr{
+    border-top: 3px solid rgba(243, 47, 47, 0.3);
+   
+}
+tr:hover{
+    background-color: grey;
+    
+}
+caption{
+    font-size: 40px;
+    color: white;
+    background-color: rgb(38, 55, 131);
+}
+th{
+    font-size: 25px;
+    margin: auto;
+}
+td a{
+    color: black;
+    padding-left:15px;
+    /* margin: auto; */
+}
+a:hover{
+    color: blue;
+}
+.delete:hover{
+    color: red;
+}
+.A{
+    width: 60%;
+}
